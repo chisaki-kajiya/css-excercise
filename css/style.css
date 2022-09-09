@@ -19,9 +19,6 @@
 
 .header_right {
   font-weight: bold;
-}
-
-.header_right ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -35,21 +32,17 @@
   width: 100vw;
 }
 
-.image {
-  width: 100vw;
+.main img {
   margin-top: 100px;
   margin-left: 50vw;
   position: relative;
   z-index: 10;
-}
-
-img {
   width: 50vw;
 }
 
 .title {
   position: absolute;
-    top: 65%;
+    top: 60%;
   z-index: 0;
 }
 
