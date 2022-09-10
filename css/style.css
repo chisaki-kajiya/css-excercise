@@ -15,9 +15,12 @@
 
 .header_right {
   font-weight: bold;
+  list-style: none;
+}
+
+.header_right ul {
   display: flex;
   flex-direction: row;
-  list-style: none;
 }
 
 .header_right li {
